@@ -4,7 +4,7 @@ import { logout, store } from "src/redux";
 const queryString = require("query-string");
 
 // eslint-disable-next-line no-unused-vars
-const deploy_origin = "https://media-player-be.herokuapp.com/api";
+const deploy_origin = "https://media-zing.herokuapp.com/api";
 // eslint-disable-next-line no-unused-vars
 const local_origin = "http://localhost:3001/api";
 
