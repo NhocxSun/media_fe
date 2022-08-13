@@ -14,9 +14,9 @@ export const RegisterModule = ({
     const dispatch = useDispatch();
 
     const initialValues = {
-        email: "buiduclong0511@gmail.com",
-        password: "123@abc",
-        confirmPassword: "123@abc"
+        email: "",
+        password: "",
+        confirmPassword: ""
     };
 
     // handle function

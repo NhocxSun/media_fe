@@ -12,15 +12,15 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "src/utils";
 
 ReactDOM.render(
-  <React.StrictMode>
+ // <React.StrictMode>
     <PersistGate loading={null} persistor={persistor}>
       <Provider store={store}>
         <ThemeProvider theme={theme}>
           <App />
         </ThemeProvider>
       </Provider>
-    </PersistGate>
-  </React.StrictMode>,
+    </PersistGate>,
+  //</React.StrictMode>,
   document.getElementById("root")
 );
 
